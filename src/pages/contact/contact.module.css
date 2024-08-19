@@ -1,0 +1,100 @@
+.contact_body {
+  width: 100%;
+  background: url("../../assets//DALL·E\ 2024-08-13\ 20.55.12\ -\ An\ abstract\ digital\ art\ with\ flowing\,\ wavy\ lines\ in\ vibrant\ shades\ of\ blue\,\ green\,\ and\ purple\ on\ a\ gradient\ background.\ The\ lines\ should\ create\ an\ eff.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.contact_content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 0;
+}
+
+.contact_form {
+  display: flex;
+  flex-direction: column;
+  width: 550px;
+  background: rgba(6, 6, 6, 0.75);
+  border: 1px solid #968dc1;
+  padding: 30px;
+  border-radius: 15px;
+  align-items: center;
+  text-align: left;
+  input {
+    width: 100%;
+    height: 50px;
+    color: #edeafe;
+    padding: 20px 0 20px 20px;
+    background-color: transparent;
+    outline: none;
+    border-radius: 5px;
+    font-size: 18px;
+    border: 1px solid #edeafe;
+  }
+  ::placeholder {
+    color: #edeafe;
+    font-size: 18px;
+  }
+}
+
+.contact_h2 {
+  color: #edeafe;
+  font-size: 40px;
+  margin: 0 0 20px 0;
+}
+
+.contact_p {
+  color: #edeafe;
+  font-weight: 600;
+  font-size: 18px;
+  margin: 15px 0;
+  transition: 0.4s;
+}
+
+.contact_subtitle {
+  color: #edeafe;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  margin: 10px 0;
+}
+
+.contact_span {
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 20px 0;
+}
+
+.contact_text {
+  display: flex;
+  gap: 10px;
+}
+
+.contact_btn {
+  width: 100%;
+  height: 50px;
+  background: #886bed;
+  margin-top: 20px;
+  color: #edeafe;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.2s ease;
+  font-weight: 500;
+  &:hover {
+    background: #5e39c5;
+  }
+}
+
+.contact_map {
+  width: 750px;
+  height: 600px;
+  border: none;
+  border-radius: 10px;
+}

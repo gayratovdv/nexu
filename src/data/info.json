@@ -1,0 +1,26 @@
+[
+  {
+    "number": "12,361",
+    "paragraf": "Emails Sent",
+    "percent": "+14",
+    "icon": "fa-message"
+  },
+  {
+    "number": "431,225",
+    "paragraf": "Sales Obtained",
+    "percent": "+21",
+    "icon": "fa-cash-register"
+  },
+  {
+    "number": "32,441",
+    "paragraf": "New Clients",
+    "percent": "+5",
+    "icon": "fa-users"
+  },
+  {
+    "number": "1,325,134",
+    "paragraf": "Traffic Received",
+    "percent": "+43",
+    "icon": "fa-traffic-light"
+  }
+]

@@ -1,0 +1,31 @@
+.card {
+    width: 48%;
+    height: 250px;
+    background: #a1d5ef;
+    padding: 30px 40px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin: 25px 0;
+    gap: 20px;
+    i {
+        border-radius: 50%;
+        background: #4a017d;
+        width: 50px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 20px;
+        color: #fff;
+    }
+    h3 {
+        font-size: 30px;
+        color: #000;
+        font-weight: 500;
+    }
+    p {
+        font-size: 18px;
+        color: #000;
+    }
+}

@@ -1,0 +1,35 @@
+.info {
+    padding: 25px;
+    width: 23.9%;
+    background: #1F2A40;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5%;
+}
+
+.info__content {
+    i {
+        color: #4cceac;
+        font-size: 20px;
+    }
+    h4 {
+        font-size: 22px;
+        font-weight: 500;
+        color: #fff;
+        margin: 10px 0;
+    }
+    p {
+        font-size: 16px;
+        color: #4cceac;
+        font-weight: 400;
+    }
+}
+
+.info__border {
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    border: 2px solid #4cceac;
+    margin-bottom: 22px;
+}
